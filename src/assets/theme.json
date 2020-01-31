@@ -1,0 +1,40 @@
+{
+  "colors": {
+    "white": "#fff",
+    "pink": "#EA80A6"
+  },
+  "breakpoints": {
+    "desktop": "1280px",
+    "tablet": "768px",
+    "mobile": "320px"
+  },
+  "spacing": {
+    "small": 20,
+    "medium": 32,
+    "large": 64
+  },
+  "textStyle": {
+    "Heading": {
+      "fontSize": "2rem",
+      "fontWeight": "700",
+      "textTransform": "uppercase"
+    },
+    "SpacedTitle": {
+      "fontSize": "3rem",
+      "fontWeight": "700",
+      "textTransform": "uppercase",
+      "letterSpacing": "20px",
+      "lineHeight": "80px"
+    },
+    "Bold": {
+      "fontSize": "1.5rem",
+      "fontWeight": "700",
+      "textTransform": "uppercase"
+    },
+    "Regular": {
+      "fontSize": "1rem",
+      "fontWeight": "400",
+      "textTransform": "initial"
+    }
+  }
+}
