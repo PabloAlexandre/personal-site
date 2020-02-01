@@ -52,15 +52,17 @@ const Background = styled.div`
   background-image: url('${image}');
   background-repeat: repeat;
   animation: ${backgroundAnimation} 2s linear infinite;
-  
+  filter: grayscale(100%);
 `;
 
 const Box = styled.div`
   position: absolute;
-  width: 80%;
+  width: 100%;
   height: 100%;
+  left: 0;
+  top: 0;
   z-index: -1;
-  background: ${property('theme.colors.pink')};
+  background: ${property('theme.colors.box')};
 `;
 
 const textPerPercentage = [{
@@ -105,12 +107,15 @@ const InteractiveExperiences = () => {
     <Space pv="large" ref={ref} >
       <Background/>
       <SectionWrap>
-        <Box />
-        <Space pv="large">
-          <Text.Secondary type="SpacedTitle">
-            Users over<br/>{ text }
-          </Text.Secondary>
-        </Space>
+        <Grid.Container>
+          <Box />
+          <Space pv="large">
+            <Text.Secondary type="SpacedTitle">
+              Users over<br/>{ text }
+            </Text.Secondary>
+          </Space>
+        </Grid.Container>
+        
       </SectionWrap>
     </Space>
   );

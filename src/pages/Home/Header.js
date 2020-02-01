@@ -16,11 +16,10 @@ const HeaderWrap = styled.div`
   height: 100vH;
   min-height: 400px;  
   padding-top: 150px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.05);
 
   @media(max-width: ${property('theme.breakpoints.desktop')}) {
-    padding-top: 150px;
-    height: 600px;
+    padding-top: 200px;
+    // height: 600px;
   }
 `;
 
@@ -55,11 +54,11 @@ const Header = () => {
         <Text.Secondary type="Bold">
           { text }
         </Text.Secondary>
-
-        <TerrainWrap>
-          <Terrain />
-        </TerrainWrap>
       </Grid.Container>
+
+      <TerrainWrap>
+        <Terrain />
+      </TerrainWrap>
     </HeaderWrap>
   );
 }

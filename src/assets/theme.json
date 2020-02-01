@@ -1,7 +1,8 @@
 {
   "colors": {
     "white": "#fff",
-    "pink": "#EA80A6"
+    "pink": "#EA80A6",
+    "box": "#00B4CC"
   },
   "breakpoints": {
     "desktop": "1280px",
@@ -11,7 +12,8 @@
   "spacing": {
     "small": 20,
     "medium": 32,
-    "large": 64
+    "large": 64,
+    "m-large": 96
   },
   "textStyle": {
     "Heading": {
@@ -32,8 +34,9 @@
       "textTransform": "uppercase"
     },
     "Regular": {
-      "fontSize": "1rem",
+      "fontSize": "1.5rem",
       "fontWeight": "400",
+      "lineHeight": "35px",
       "textTransform": "initial"
     }
   }

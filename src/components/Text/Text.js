@@ -15,8 +15,8 @@ function textStyle(props) {
     font-size: ${fontSize};
     text-transform: ${textTransform};
     font-weight: ${fontWeight};
-    ${letterSpacing && `letter-spacing: ${letterSpacing};`}
-    ${lineHeight && `line-height: ${lineHeight};`}
+    ${letterSpacing ? `letter-spacing: ${letterSpacing};` : ''}
+    ${lineHeight ? `line-height: ${lineHeight};` : ''}
   `;
 }
 
