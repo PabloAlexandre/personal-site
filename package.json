@@ -33,7 +33,7 @@
     ]
   },
   "devDependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "styled-components": "^5.0.0"
   }
 }
